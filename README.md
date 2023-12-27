@@ -1,8 +1,8 @@
 <div align="center">
-  <h5 align="center">
-    <img src="./images/logo.png" height="50px">
-    Algoritma dan Dasar Pemrograman Praktik (Kelas X)
-  </h5>
+    <img src="./images/logo.png" height="150px">
+    <h2 align="center">
+      Algoritma dan Dasar Pemrograman Praktik (Kelas X)
+    </h2>
 </div>
 
 ## 📌 Deskripsi

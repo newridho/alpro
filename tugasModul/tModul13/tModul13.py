@@ -15,11 +15,11 @@ def totalBayar(qty, hargaSatuan):
 
     diskon, potongan, totalDiskon = cekDiskon(totalBelanja)
 
+    print(f"Total Belanja Anda: {totalBelanja}")
     bayar = round(totalBelanja - totalDiskon)
     uang = round(int(input("Masukkan uang konsumen: ")))
     kembalian = round(uang - bayar)
 
-    print(f"Total Belanja Anda: {totalBelanja}")
     
     return totalBelanja, totalPerProduk, bayar, uang, kembalian, totalDiskon
 
@@ -34,15 +34,15 @@ def tampilStrukBelanja(listBarang, qty, hargaSatuan, totalPerProduk, bayar, uang
     if tampilStruk.lower() == "y":
         print("======INDOAPRIL-MART========")
         print("============================")
-        print(f"Nama Barang \t Jumlah \t Harga Satuan \t Total")
+        print(f"Nama Barang \t\t Jumlah \t\t Harga Satuan \t\t Total")
         for i in range(len(listBarang)):
-            print(f"{listBarang[i]}\t\t{qty[i]}\t\t{hargaSatuan[i]}\t\t{totalPerProduk[i]}")
+            print(f"{listBarang[i]}\t\t\t{qty[i]}\t\t\t{hargaSatuan[i]}\t\t\t{totalPerProduk[i]}")
     
     print("============================")    
-    print(f"Total Bayar : \t\t\t {round(bayar)}")    
-    print(f"Bayar       : \t\t\t\t {round(uang)}")    
-    print(f"Kembalian   : \t\t\t {round(kembalian)}")
-    print(f"Diskon      : \t\t\t {round(totalDiskon)}")
+    print(f"Total Bayar : \t\t {round(bayar)}")    
+    print(f"Bayar       : \t\t {round(uang)}")    
+    print(f"Kembalian   : \t\t {round(kembalian)}")
+    print(f"Diskon      : \t\t {round(totalDiskon)}")
     print("============================")    
 
 def main():

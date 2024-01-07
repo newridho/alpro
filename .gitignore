@@ -1,9 +1,10 @@
 #General
-.pdf
-.docx
+.pdf/
+.docx/
 .vscode/
 tugasElearn/
 db/
+doc/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

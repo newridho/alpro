@@ -1,5 +1,3 @@
-# import random
-
 uh1 = int(input("Masukkan Nilai Ulangan harian 1 : ")) 
 uh2 = int(input("Masukkan Nilai Ulangan harian 2 : ")) 
 rataUH = (uh1 + uh2) / 2

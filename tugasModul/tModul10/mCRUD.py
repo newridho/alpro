@@ -57,7 +57,7 @@ def search_by_npm(db):
 def show_data(db):
     cursor = db.cursor()
     sql = "SELECT * FROM mahasiswa1"
-    # npmS = 
+    
     cursor.execute(sql)
     fetch = cursor.fetchall()
 
